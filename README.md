@@ -26,4 +26,4 @@ As an example, you can run the code using the following command with the FEniCS 
 python3 -i Equibiaxial_Hyperelastic.py Image2931.xdmf
 ```
 
-* Jupyter Notebook [`Using_Csv_CH_Database.ipynb`](Using_Csv_CH_Database.ipynb)) -- A demonstration on how to navigate through the provided _.csv_ database to find desired information about a certain image pattern or Cahn-Hilliard simulation.
+* Jupyter Notebook [`Using_Csv_CH_Database.ipynb`](Using_Csv_CH_Database.ipynb) -- A demonstration on how to navigate through the provided _.csv_ database to find desired information about a certain image pattern or Cahn-Hilliard simulation.
