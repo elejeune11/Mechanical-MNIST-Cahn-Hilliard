@@ -22,7 +22,7 @@ python3 -i CahnHilliard_Main.py 1 97 8.43557e+01 1.81208e-02 95
 
 
   
-* Datasets ([`data.zip`](data.zip)): Compressed versions of the datasets used in this work for metamodel training and testing
+* [`Equibiaxial_Hyperelastic.py`](Equibiaxial_Hyperelastic.py): Compressed versions of the datasets used in this work for metamodel training and testing
 * Jupyter Notebook ([`metamodel.ipynb`](metamodel.ipynb)): Tensorflow implementation of our metamodel in addition to a more detailed explanation on metamodel and generative model training and testing
 
 
