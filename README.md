@@ -20,9 +20,10 @@ As an example, you can run the code using the following command with the FEniCS 
 python3 -i CahnHilliard_Main.py 1 97 8.43557e+01 1.81208e-02 95
 ```
   
-* [`Equibiaxial_Hyperelastic.py`](Equibiaxial_Hyperelastic.py) -- Code to generate the FEA simulation results. The code takes a single input, the meshed domain saved in * *.xdmf* * fomrat as a command line argument. 
+* [`Equibiaxial_Hyperelastic.py`](Equibiaxial_Hyperelastic.py) -- Code to generate the FEA simulation results. The code takes a single input, the meshed domain saved in _.xdmf_ format as a command line argument. 
+As an example, you can run the code using the following command with the FEniCS module loaded:
+```
+python3 -i Equibiaxial_Hyperelastic.py Image2931.xdmf
+```
 
-* Jupyter Notebook ([`metamodel.ipynb`](metamodel.ipynb)): Tensorflow implementation of our metamodel in addition to a more detailed explanation on metamodel and generative model training and testing
-
-
-
+* Jupyter Notebook [`Using_Csv_CH_Database.ipynb`](Using_Csv_CH_Database.ipynb)) -- A demonstration on how to navigate through the provided _.csv_ database to find desired information about a certain image pattern or Cahn-Hilliard simulation.
