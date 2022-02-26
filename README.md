@@ -20,7 +20,7 @@ As an example, you can run the code using the following command with the FEniCS 
 python3 -i CahnHilliard_Main.py 1 97 8.43557e+01 1.81208e-02 95
 ```
   
-* [`Equibiaxial_Hyperelastic.py`](Equibiaxial_Hyperelastic.py) -- Code to generate the FEA simulation results. The code takes a single input, the meshed domain saved in _.xdmf_ format as a command line argument. 
+* [`Equibiaxial_Hyperelastic.py`](Equibiaxial_Hyperelastic.py) -- Code to generate the FEA simulation results. The code takes a single input, the meshed domain saved in _.xdmf_ format, as a command line argument. 
 As an example, you can run the code using the following command with the FEniCS module loaded:
 ```
 python3 -i Equibiaxial_Hyperelastic.py Image2931.xdmf
