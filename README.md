@@ -14,7 +14,7 @@ The full dataset is hosted by OpenBU at [**Link to dataset**]()
 
 ## In This Repository
 This repository contains the codes used to generate the dataset.
-
+* _CahnHilliard_Main.py_ -- 
 * Datasets ([`data.zip`](data.zip)): Compressed versions of the datasets used in this work for metamodel training and testing
 * Jupyter Notebook ([`metamodel.ipynb`](metamodel.ipynb)): Tensorflow implementation of our metamodel in addition to a more detailed explanation on metamodel and generative model training and testing
 
