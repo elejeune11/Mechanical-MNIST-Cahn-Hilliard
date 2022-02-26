@@ -11,7 +11,7 @@ We perform Finite Element simulations of the heterogeneous meshed domains modell
 
 The full dataset is hosted by OpenBU at [**Link to dataset**]()
 
-![]()
+![Github_pic](https://user-images.githubusercontent.com/77171178/155850904-c11710a8-6e33-4a8b-8dc9-d5688e9ba1a9.png)
 
 ## In this Repository
 This repository contains the codes used to generate the dataset.
