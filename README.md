@@ -1,7 +1,7 @@
 # Mechanical MNIST Cahn-Hilliard Dataset
 
 The Mechanical MNIST Cahn-Hilliard dataset is an extension of the [Mechanical-MNIST](https://github.com/elejeune11/Mechanical-MNIST) dataset collection. 
-This repository contains the codes used to create this dataset as implemented in the paper ''Enhancing Mechanical Metamodels with a Generative Model-Based Augmented Training Dataset([link](arXiv:2203.04183)''.  
+This repository contains the codes used to create this dataset as implemented in the paper ''Enhancing Mechanical Metamodels with a Generative Model-Based Augmented Training Dataset [access paper](arXiv:2203.04183)''.  
 
 The input domain distributions are generated from a Finite Element implementation of the Cahn-Hilliard equation by varying four simulation parameters: the initial concentration, the grid size on which the concentration is initialized, the parameter lambda related to the interface thickness, and b, the peak-to-valley value of the symmetric double-well chemical free-energy function. The dataset consists of 104,813 different stripe and circle patterns saved as 400 x 400 binary bitmap images each in a separate text file. The binary images are converted into two-dimensional meshed domains using the OpenCV library, Pygmsh, and Gmsh 4.6.0. We also include a downsampled version of the patterns stored in a single text file where each row contains 64 x 64 = 4,096 entries.
 
