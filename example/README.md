@@ -8,8 +8,12 @@ Here we provide a brief tutorial on how to use the [`NumpyImageToGmsh.py`](Numpy
 
 The [`NumpyImageToGmsh.py`](NumpyImageToGmsh.py) code expects that the Cahn-Hilliard patterns are stored in [`input_patterns`] folder. To run the code, simply use the following command with python3 loaded.
 
-'''
+```
 python3 NumpyImageToGmsh.py
-'''
+```
 
-The output of this code are python files to be run in `Gmsh 4.6.0`. To obtain the _.xdmf_ mesh files, _Image_#_.py_
+The output of this code are python files to be run in `Gmsh 4.6.0`. To obtain the _.xdmf_ mesh files from the _Image_#_.py_ files, run these files in Gmsh. As an example, the following command outputs _Image2931.msh_, _Image2931.xdmf_, and _Image2931.h5_ files. Make sure that Gmsh 4.6.0 module is loaded before.
+
+```
+python3 Image2931.py
+```
