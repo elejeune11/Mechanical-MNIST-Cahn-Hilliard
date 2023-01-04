@@ -12,7 +12,7 @@ The [`NumpyImageToGmsh.py`](NumpyImageToGmsh.py) code expects that the Cahn-Hill
 python3 NumpyImageToGmsh.py
 ```
 
-The output of this code are python files to be run in `Gmsh 4.6.0`. To obtain the _.xdmf_ mesh files from the _Image_#_.py_ files, run these files in Gmsh. As an example, the following command outputs `_Image2931.msh_`, `_Image2931.xdmf_`, and `_Image2931.h5_` files. Make sure that Gmsh 4.6.0 module is loaded before.
+The output of this code are python files to be run in `Gmsh 4.6.0`. To obtain the _.xdmf_ mesh files from the _Image_#_.py_ files, run these files in Gmsh. As an example, the following command outputs `Image2931.msh`, `Image2931.xdmf`, and `Image2931.h5` files. Make sure that Gmsh 4.6.0 module is loaded before.
 
 ```
 python3 Image2931.py
